@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+#   This repo specific
+create-tableau-dashboard-extension/package-lock.json
+create-tableau-dashboard-extension/README.md
+.vscode/launch.json
+build*
+.DS_Store
