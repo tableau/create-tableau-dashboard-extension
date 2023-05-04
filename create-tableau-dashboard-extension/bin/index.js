@@ -55,7 +55,7 @@ const runCommand = command => {
 
 // Command to clone from this template in Github
 const githubRepoName = 'create-tableau-dashboard-extension';
-const gitCheckoutCOmmand = `git clone --depth 1 https://github.com/takashibinns/${githubRepoName} ${githubRepoName}`;
+const gitCheckoutCOmmand = `git clone --depth 1 https://github.com/tableau/${githubRepoName} ${githubRepoName}`;
 console.log(chalk.blue(`2. Cloning the repository with name ${githubRepoName}/${extName}`));
 const checkedOut = runCommand(gitCheckoutCOmmand);
 if (!checkedOut) showError('Error while running `git clone`, make sure you have git installed.');

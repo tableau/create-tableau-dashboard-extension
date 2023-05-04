@@ -1,11 +1,11 @@
 {
   "name": "create-tableau-dashboard-extension",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "bin": {
     "create-tableau-dashboard-extension": "bin/index.js"
   },
   "repository": {
-    "url": "https://github.com/takashibinns/create-tableau-dashboard-extension",
+    "url": "https://github.com/tableau/create-tableau-dashboard-extension",
     "type": "git"
   },
   "scripts": {
